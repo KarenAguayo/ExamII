@@ -2,6 +2,7 @@ import ingresaValor from "./TorosVacas"
 import codigoescondido from "./codigoescondido.js";
 import CompararVaca from "./vaca.js";
 import CompararToro from "./toro.js"
+import CompararTernera from "./ternera.js"
 describe("Jugador",()=>{
     it("mostrar el valor ingresado",()=>{
         expect(ingresaValor("1234")).toEqual("1234");

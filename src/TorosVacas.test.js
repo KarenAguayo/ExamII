@@ -21,6 +21,9 @@ describe("Jugador",()=>{
       it("Comparar el codigo adivina  para saber si es toro la primera posicion", () => {
         expect(CompararToro("1234","1345")).toEqual('!');
       });
+      it("compara el codigo para ver si existe ternera", ()=>{
+           expect(CompararTernera("1234","1345")).toEqual('#');
+      });
 });
 
   

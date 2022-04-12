@@ -26,7 +26,7 @@ describe("Jugador",()=>{
            expect(CompararTernera("1234","1345")).toEqual('#');
       });
       it("compara el codigo para ver si existe bisonte", ()=>{
-        expect(CompararTernera("1234")).toEqual('%');
+        expect(CompararBisonte("1234")).toEqual('%');
    });
 });
 
